@@ -30,9 +30,9 @@ class LinkedList:
         self.first_node = self.first_node.next_node
         
     def delete_node(self, num): # удаление конкретного элемента LL (value == num)
-        current_node = self.first_node
  
         if current_node.value == num:
+            current_node = self.first_node
             self.remove_first_node()
             return
  
