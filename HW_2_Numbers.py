@@ -10,7 +10,7 @@
     """
 
 import string
-digits_set = string.digits + "ABCDEF" #получаем набор из цифр и букв
+digits_set = string.digits + string.ascii_uppercase #получаем набор из цифр и букв
 
 def to_decimal(system_in: int, num: str) -> int:
     """
