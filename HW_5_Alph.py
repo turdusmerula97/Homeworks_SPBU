@@ -14,8 +14,7 @@ def creation_func_symbols(alphabet: str): # принимает последов�
     
     def alphabet_percentage(sequence: str):
         
-        symbols = set(sequence
-                     )
+        symbols = set(sequence)
         if not (symbols <= created_alphabet):
             raise Exception("Sequence has symbols, which are not included in the alphabet!")
             
